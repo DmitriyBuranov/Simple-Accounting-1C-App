@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
-	<Document uuid="04ba598b-e04b-4d6c-a23e-cf562d9217ee">
+	<Document uuid="e0f474c9-8d82-497a-9276-2742dba936a9">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.Payment" category="Object">
-				<xr:TypeId>0ceca5aa-1760-4b0c-9a76-ee9043640073</xr:TypeId>
-				<xr:ValueId>22ddfa97-8b4e-4c0e-bc20-8dda6c903dc9</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.SetPeriodicServices" category="Object">
+				<xr:TypeId>da2312fe-ca9e-49bf-ab00-483bde81a078</xr:TypeId>
+				<xr:ValueId>a9749280-fdb3-442d-82a6-fbda8bda16e8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.Payment" category="Ref">
-				<xr:TypeId>312623f6-832e-4e92-ab2c-b558eaf0d575</xr:TypeId>
-				<xr:ValueId>1da1fcf4-1a6f-44df-9243-51ec5f2d4d0d</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.SetPeriodicServices" category="Ref">
+				<xr:TypeId>d75c17e3-8490-48c4-9201-7afb0d2ce778</xr:TypeId>
+				<xr:ValueId>60208592-91c9-47e8-bef4-89c51aaf6334</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.Payment" category="Selection">
-				<xr:TypeId>f508e79e-e036-45a9-bc0a-5f4677243e38</xr:TypeId>
-				<xr:ValueId>da9cb145-ecff-4a86-bb5a-54feb1da74fd</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.SetPeriodicServices" category="Selection">
+				<xr:TypeId>e4d17c1f-9bb0-4e8f-bcfe-c004e8a49dd7</xr:TypeId>
+				<xr:ValueId>87dbbd48-e299-42e3-aaab-96bfe34443b4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.Payment" category="List">
-				<xr:TypeId>5cdbd570-30f0-41af-9500-44b8f4af1537</xr:TypeId>
-				<xr:ValueId>3093ecff-3d25-4e8f-bd23-9838ce99faac</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.SetPeriodicServices" category="List">
+				<xr:TypeId>1a019c46-bc19-4167-a9bd-0004a3978055</xr:TypeId>
+				<xr:ValueId>8c44dbba-9a43-486f-8465-5ef1b742691f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.Payment" category="Manager">
-				<xr:TypeId>dfbca208-da35-4605-b80f-14d0dcc16987</xr:TypeId>
-				<xr:ValueId>520b0492-979b-4e64-a922-fc072fc7c00e</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.SetPeriodicServices" category="Manager">
+				<xr:TypeId>85678c6e-f179-4ebb-b417-2e3d3cbc110c</xr:TypeId>
+				<xr:ValueId>3b7fe795-2d39-4147-bf47-5f63ee53bf9a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Payment</Name>
+			<Name>SetPeriodicServices</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Payment</v8:content>
+					<v8:content>Set periodic services</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -43,7 +43,7 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.Payment.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.SetPeriodicServices.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -60,9 +60,7 @@
 			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.SpendingAccumulation</xr:Item>
-			</RegisterRecords>
+			<RegisterRecords/>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -80,23 +78,18 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="1877352a-d4d2-4a6d-8946-3098975a45f7">
+			<Attribute uuid="427f996f-faf3-492f-9e36-137eaebd74bb">
 				<Properties>
-					<Name>DocumentSum</Name>
+					<Name>Period</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Document sum</v8:content>
+							<v8:content>Period</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
+						<v8:Type>cfg:EnumRef.Periods</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -124,23 +117,23 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="89bfa60a-8f6e-4d73-b711-ccd119428192">
+			<TabularSection uuid="5c7938d4-e81d-495b-bc9e-191364ea49c7">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.Payment.Items" category="TabularSection">
-						<xr:TypeId>edd79174-f053-4b4e-b099-295aa66d16d9</xr:TypeId>
-						<xr:ValueId>281c0b9b-1453-4015-a9f0-043ea1b4cc87</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.SetPeriodicServices.Services" category="TabularSection">
+						<xr:TypeId>872cf3c3-b011-42d8-89ea-aa40e2fe46aa</xr:TypeId>
+						<xr:ValueId>25c1b4d6-6c76-4c7b-9fd1-4bd1a90d04b6</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.Payment.Items" category="TabularSectionRow">
-						<xr:TypeId>da3b15fb-0e4c-4456-9ceb-69d5808c4a28</xr:TypeId>
-						<xr:ValueId>e49fc77f-bfe8-4857-b5e6-ea069b96ac67</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.SetPeriodicServices.Services" category="TabularSectionRow">
+						<xr:TypeId>cec9db63-2a4a-4e87-a3b8-14f620ce1211</xr:TypeId>
+						<xr:ValueId>9a018347-e6a5-40fe-957b-919be0b14d25</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>Items</Name>
+					<Name>Services</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Items</v8:content>
+							<v8:content>Services</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -148,13 +141,13 @@
 					<FillChecking>DontCheck</FillChecking>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="b21e05c4-1069-4bca-a9de-d264b8e7880d">
+					<Attribute uuid="d30a80c0-5f5d-466c-9240-e63e9d474d88">
 						<Properties>
-							<Name>Item</Name>
+							<Name>Service</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Item</v8:content>
+									<v8:content>Service</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -185,7 +178,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="32e71959-4a0e-4cb8-8958-0229bf369ac0">
+					<Attribute uuid="21f05fd8-3de8-4e5c-bcff-099b5cff95c3">
 						<Properties>
 							<Name>Cost</Name>
 							<Synonym>
@@ -227,65 +220,21 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="6d66800a-3b29-4bf8-a673-a7e376d89c27">
+					<Attribute uuid="d84d3581-ad0e-4ca7-9e31-84f681516b10">
 						<Properties>
-							<Name>Quantity</Name>
+							<Name>PayDay</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Quantity</v8:content>
+									<v8:content>Pay day</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>10</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-							<DataHistory>Use</DataHistory>
-						</Properties>
-					</Attribute>
-					<Attribute uuid="1dc3d39e-85bb-4213-ba46-e5c7a506f508">
-						<Properties>
-							<Name>Amount</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Amount</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>10</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
 	<ConfigVersions>
-		<Metadata name="Catalog.Products" id="d7a5ceab-8daf-4974-b297-5aba6dc8fa1f" configVersion="d033f600d3bc2a4b91b2cf263acbaec200000000">
+		<Metadata name="AccumulationRegister.SpendingAccumulation" id="22b4793c-2e7e-47a5-85c6-a9c98b75b52f" configVersion="08ac86297f3dc44c89bd842b65eae08f00000000">
+			<Metadata name="AccumulationRegister.SpendingAccumulation.Resource.Quantity" id="016e2b4e-db4a-4237-a2fb-4fc14da4f19c"/>
+			<Metadata name="AccumulationRegister.SpendingAccumulation.Resource.Amount" id="583b7d69-d134-4814-9368-8e8bce88b85a"/>
+			<Metadata name="AccumulationRegister.SpendingAccumulation.Dimension.Product" id="def0db43-d333-4a68-9616-29fc7ee38dbf"/>
+		</Metadata>
+		<Metadata name="Catalog.Products" id="d7a5ceab-8daf-4974-b297-5aba6dc8fa1f" configVersion="d7e03aec3991b245a6994892322518f600000000">
+			<Metadata name="Catalog.Products.Attribute.Periodicity" id="a7b73099-7286-4d27-9a2c-034a5bd76ec2"/>
 			<Metadata name="Catalog.Products.Attribute.Kind" id="f3e1af47-1088-4f9b-b7db-7f95a76883de"/>
 			<Metadata name="Catalog.Products.Attribute.ProductsType" id="f79204c4-5fbd-4955-bf3f-d142a21e6565"/>
 		</Metadata>
@@ -9,12 +15,26 @@
 		<Metadata name="Catalog.Products.Form.ItemForm.Form" id="92507c6c-2579-40cb-a9c3-a01c48c98eb5.0" configVersion="b14d605056440c4abcf49a66c30e256900000000"/>
 		<Metadata name="Catalog.TypesOfProducts" id="de45af80-4ad9-4c7d-aea9-a8881ac1e67f" configVersion="5a62c299e9140040a4399c8af97323f300000000"/>
 		<Metadata name="CommonModule.CommonFunctions" id="37d66cfd-9f37-4dab-ac4f-8f7b300ca832" configVersion="170b833445f82a44a4393c70212dc0ad00000000"/>
-		<Metadata name="Configuration.PersonalAccountingApp" id="375c91ac-138b-4f28-ae68-661e42ffff76" configVersion="ee4916770a4c724ca062c297af25610300000000"/>
-		<Metadata name="Document.Payment" id="04ba598b-e04b-4d6c-a23e-cf562d9217ee" configVersion="14d9110116ca5143accc54c84746536c00000000">
+		<Metadata name="Configuration.PersonalAccountingApp" id="375c91ac-138b-4f28-ae68-661e42ffff76" configVersion="2a74bf89eb636b42a6aad086addb5f6200000000"/>
+		<Metadata name="Document.Payment" id="04ba598b-e04b-4d6c-a23e-cf562d9217ee" configVersion="891ba49005ad0f42bdea32b18454074200000000">
 			<Metadata name="Document.Payment.Attribute.DocumentSum" id="1877352a-d4d2-4a6d-8946-3098975a45f7"/>
+			<Metadata name="Document.Payment.TabularSection.Items.Attribute.Amount" id="1dc3d39e-85bb-4213-ba46-e5c7a506f508"/>
 			<Metadata name="Document.Payment.TabularSection.Items.Attribute.Cost" id="32e71959-4a0e-4cb8-8958-0229bf369ac0"/>
+			<Metadata name="Document.Payment.TabularSection.Items.Attribute.Quantity" id="6d66800a-3b29-4bf8-a673-a7e376d89c27"/>
 			<Metadata name="Document.Payment.TabularSection.Items" id="89bfa60a-8f6e-4d73-b711-ccd119428192"/>
 			<Metadata name="Document.Payment.TabularSection.Items.Attribute.Item" id="b21e05c4-1069-4bca-a9de-d264b8e7880d"/>
+		</Metadata>
+		<Metadata name="Document.SetPeriodicServices" id="e0f474c9-8d82-497a-9276-2742dba936a9" configVersion="c0353b45d04a884588a2998efab1284f00000000">
+			<Metadata name="Document.SetPeriodicServices.TabularSection.Services.Attribute.Cost" id="21f05fd8-3de8-4e5c-bcff-099b5cff95c3"/>
+			<Metadata name="Document.SetPeriodicServices.Attribute.Period" id="427f996f-faf3-492f-9e36-137eaebd74bb"/>
+			<Metadata name="Document.SetPeriodicServices.TabularSection.Services" id="5c7938d4-e81d-495b-bc9e-191364ea49c7"/>
+			<Metadata name="Document.SetPeriodicServices.TabularSection.Services.Attribute.Service" id="d30a80c0-5f5d-466c-9240-e63e9d474d88"/>
+			<Metadata name="Document.SetPeriodicServices.TabularSection.Services.Attribute.PayDay" id="d84d3581-ad0e-4ca7-9e31-84f681516b10"/>
+		</Metadata>
+		<Metadata name="Enum.Periods" id="7bc2e02a-9681-49b0-9769-dc81a23b3277" configVersion="6a634e2323bcc34eb292bbaef7c3492c00000000">
+			<Metadata name="Enum.Periods.EnumValue.Year" id="89c13ca3-42a7-4e7f-ae32-9054369d72e4"/>
+			<Metadata name="Enum.Periods.EnumValue.NotPeriodic" id="cb2a5df9-58f7-45b9-9a76-c154b99ad18e"/>
+			<Metadata name="Enum.Periods.EnumValue.Month" id="e178b3b9-dda0-4103-8ad0-96822b4aa272"/>
 		</Metadata>
 		<Metadata name="Enum.ProductKinds" id="586f2e7f-89c5-4394-bde7-813be837e6c2" configVersion="34126ea71436e741afb5ed8d0d83aeaf00000000">
 			<Metadata name="Enum.ProductKinds.EnumValue.Service" id="69f9262b-0f50-44ef-9b0f-79a5e14dd459"/>
@@ -24,9 +44,13 @@
 			<Metadata name="InformationRegister.Barcodes.Attribute.Barcode" id="73c0c73c-d295-4041-b94d-d0782b0d9347"/>
 			<Metadata name="InformationRegister.Barcodes.Dimension.Product" id="a2e93471-3213-48fa-87f4-6199dfc3e749"/>
 		</Metadata>
+		<Metadata name="InformationRegister.ServiceCost" id="3d1bc235-fc06-49e5-9d9f-4f5576f4fe0b" configVersion="a0412613d75e3f4295aa2eab305dc91f00000000">
+			<Metadata name="InformationRegister.ServiceCost.Resource.Cost" id="28c6df7b-e72a-49fe-a0ab-0ed19d864334"/>
+			<Metadata name="InformationRegister.ServiceCost.Dimension.Service" id="fe9f23ec-a9ff-4a94-919c-0164598fb5f3"/>
+		</Metadata>
 		<Metadata name="Language.English" id="b107128a-b98a-4b77-81e0-71288f04976e" configVersion="683f859efd8e1a47baada30d05d0edd400000000"/>
 		<Metadata name="Subsystem.Profits" id="e61ec70d-3440-4bf1-b49d-6edea8943517" configVersion="d1ab1115dd672b47b0ea493562238c5a00000000"/>
 		<Metadata name="Subsystem.Settings" id="2b1f7f4d-089f-4f62-ac9a-e1d1b33c18d1" configVersion="261a4982015e5c4daed995ed91415bd000000000"/>
-		<Metadata name="Subsystem.Spending" id="cf616c9d-6dab-4c42-897a-b97ebad87844" configVersion="ee982d6e5aba2648968e69af3e844b6800000000"/>
+		<Metadata name="Subsystem.Spending" id="cf616c9d-6dab-4c42-897a-b97ebad87844" configVersion="c1a5f41faeb02d459728d279277e95ab00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

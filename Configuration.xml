@@ -213,8 +213,12 @@
 			<Catalog>Products</Catalog>
 			<Catalog>TypesOfProducts</Catalog>
 			<Document>Payment</Document>
+			<Document>SetPeriodicServices</Document>
 			<Enum>ProductKinds</Enum>
+			<Enum>Periods</Enum>
 			<InformationRegister>Barcodes</InformationRegister>
+			<InformationRegister>ServiceCost</InformationRegister>
+			<AccumulationRegister>SpendingAccumulation</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

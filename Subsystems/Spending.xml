@@ -20,6 +20,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.TypesOfProducts</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Barcodes</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Payment</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.SpendingAccumulation</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.SetPeriodicServices</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ServiceCost</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
