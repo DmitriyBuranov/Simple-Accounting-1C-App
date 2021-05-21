@@ -206,7 +206,15 @@
 		</Properties>
 		<ChildObjects>
 			<Language>English</Language>
+			<Subsystem>Spending</Subsystem>
+			<Subsystem>Profits</Subsystem>
+			<Subsystem>Settings</Subsystem>
 			<CommonModule>CommonFunctions</CommonModule>
+			<Catalog>Products</Catalog>
+			<Catalog>TypesOfProducts</Catalog>
+			<Document>Payment</Document>
+			<Enum>ProductKinds</Enum>
+			<InformationRegister>Barcodes</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
