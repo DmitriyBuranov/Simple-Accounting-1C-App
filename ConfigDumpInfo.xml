@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
+	<ConfigVersions>
+		<Metadata name="CommonModule.CommonFunctions" id="37d66cfd-9f37-4dab-ac4f-8f7b300ca832" configVersion="170b833445f82a44a4393c70212dc0ad00000000"/>
+		<Metadata name="Configuration.PersonalAccountingApp" id="375c91ac-138b-4f28-ae68-661e42ffff76" configVersion="f8e39536d80c7d4cbd0fa4382e98433600000000"/>
+		<Metadata name="Language.English" id="b107128a-b98a-4b77-81e0-71288f04976e" configVersion="683f859efd8e1a47baada30d05d0edd400000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
