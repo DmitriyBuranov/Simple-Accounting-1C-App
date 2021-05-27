@@ -63,7 +63,7 @@
 			<DefaultObjectForm>Catalog.Products.Form.ItemForm</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
-			<DefaultChoiceForm/>
+			<DefaultChoiceForm>Catalog.Products.Form.ChoiceForm</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -208,6 +208,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ItemForm</Form>
+			<Form>ChoiceForm</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

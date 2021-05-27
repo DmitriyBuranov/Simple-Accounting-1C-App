@@ -49,7 +49,7 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Document.SetPeriodicServices.Form.DocumentForm</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -117,6 +117,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>DocumentForm</Form>
 			<TabularSection uuid="5c7938d4-e81d-495b-bc9e-191364ea49c7">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.SetPeriodicServices.Services" category="TabularSection">

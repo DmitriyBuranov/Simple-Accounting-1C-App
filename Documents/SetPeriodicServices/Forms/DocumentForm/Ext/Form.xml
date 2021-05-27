@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="FormCommandBar" id="-1"/>
+	<ChildItems>
+		<InputField name="Date" id="1">
+			<DataPath>Object.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="DateContextMenu" id="2"/>
+			<ExtendedTooltip name="DateExtendedTooltip" id="3"/>
+		</InputField>
+		<InputField name="Period" id="4">
+			<DataPath>Object.Period</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="PeriodContextMenu" id="5"/>
+			<ExtendedTooltip name="PeriodExtendedTooltip" id="6"/>
+		</InputField>
+		<Table name="Services" id="7">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Object.Services</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ServicesContextMenu" id="8"/>
+			<AutoCommandBar name="ServicesCommandBar" id="9"/>
+			<ExtendedTooltip name="ServicesExtendedTooltip" id="10"/>
+			<SearchStringAddition name="ServicesSearchString" id="11">
+				<AdditionSource>
+					<Item>Services</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ServicesSearchStringContextMenu" id="12"/>
+				<ExtendedTooltip name="ServicesSearchStringExtendedTooltip" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ServicesViewStatus" id="14">
+				<AdditionSource>
+					<Item>Services</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ServicesViewStatusContextMenu" id="15"/>
+				<ExtendedTooltip name="ServicesViewStatusExtendedTooltip" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ServicesSearchControl" id="17">
+				<AdditionSource>
+					<Item>Services</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ServicesSearchControlContextMenu" id="18"/>
+				<ExtendedTooltip name="ServicesSearchControlExtendedTooltip" id="19"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ServicesLineNumber" id="20">
+					<DataPath>Object.Services.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ServicesLineNumberContextMenu" id="21"/>
+					<ExtendedTooltip name="ServicesLineNumberExtendedTooltip" id="22"/>
+				</LabelField>
+				<InputField name="ServicesService" id="23">
+					<DataPath>Object.Services.Service</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ServicesServiceContextMenu" id="24"/>
+					<ExtendedTooltip name="ServicesServiceExtendedTooltip" id="25"/>
+					<Events>
+						<Event name="StartChoice">ServicesServiceStartChoice</Event>
+					</Events>
+				</InputField>
+				<InputField name="ServicesCost" id="26">
+					<DataPath>Object.Services.Cost</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ServicesCostContextMenu" id="27"/>
+					<ExtendedTooltip name="ServicesCostExtendedTooltip" id="28"/>
+				</InputField>
+				<InputField name="ServicesPayDay" id="29">
+					<DataPath>Object.Services.PayDay</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ServicesPayDayContextMenu" id="30"/>
+					<ExtendedTooltip name="ServicesPayDayExtendedTooltip" id="31"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Object" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.SetPeriodicServices</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Object.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
