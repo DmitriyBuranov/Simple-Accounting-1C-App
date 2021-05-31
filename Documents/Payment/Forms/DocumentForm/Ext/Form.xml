@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="FormCommandBar" id="-1"/>
+	<ChildItems>
+		<InputField name="Number" id="1">
+			<DataPath>Object.Number</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="NumberContextMenu" id="2"/>
+			<ExtendedTooltip name="NumberExtendedTooltip" id="3"/>
+		</InputField>
+		<InputField name="Date" id="4">
+			<DataPath>Object.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="DateContextMenu" id="5"/>
+			<ExtendedTooltip name="DateExtendedTooltip" id="6"/>
+		</InputField>
+		<InputField name="DocumentSum" id="7">
+			<DataPath>Object.DocumentSum</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="DocumentSumContextMenu" id="8"/>
+			<ExtendedTooltip name="DocumentSumExtendedTooltip" id="9"/>
+		</InputField>
+		<Table name="Items" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Object.Items</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ItemsContextMenu" id="11"/>
+			<AutoCommandBar name="ItemsCommandBar" id="12"/>
+			<ExtendedTooltip name="ItemsExtendedTooltip" id="13"/>
+			<SearchStringAddition name="ItemsSearchString" id="14">
+				<AdditionSource>
+					<Item>Items</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ItemsSearchStringContextMenu" id="15"/>
+				<ExtendedTooltip name="ItemsSearchStringExtendedTooltip" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ItemsViewStatus" id="17">
+				<AdditionSource>
+					<Item>Items</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ItemsViewStatusContextMenu" id="18"/>
+				<ExtendedTooltip name="ItemsViewStatusExtendedTooltip" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ItemsSearchControl" id="20">
+				<AdditionSource>
+					<Item>Items</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ItemsSearchControlContextMenu" id="21"/>
+				<ExtendedTooltip name="ItemsSearchControlExtendedTooltip" id="22"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">ItemsOnChange</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ItemsLineNumber" id="23">
+					<DataPath>Object.Items.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ItemsLineNumberContextMenu" id="24"/>
+					<ExtendedTooltip name="ItemsLineNumberExtendedTooltip" id="25"/>
+				</LabelField>
+				<InputField name="ItemsItem" id="26">
+					<DataPath>Object.Items.Product</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ItemsItemContextMenu" id="27"/>
+					<ExtendedTooltip name="ItemsItemExtendedTooltip" id="28"/>
+					<Events>
+						<Event name="OnChange">ItemsItemOnChange</Event>
+					</Events>
+				</InputField>
+				<InputField name="ItemsCost" id="29">
+					<DataPath>Object.Items.Cost</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ItemsCostContextMenu" id="30"/>
+					<ExtendedTooltip name="ItemsCostExtendedTooltip" id="31"/>
+					<Events>
+						<Event name="OnChange">ItemsCostOnChange</Event>
+					</Events>
+				</InputField>
+				<InputField name="ItemsQuantity" id="32">
+					<DataPath>Object.Items.Quantity</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ItemsQuantityContextMenu" id="33"/>
+					<ExtendedTooltip name="ItemsQuantityExtendedTooltip" id="34"/>
+					<Events>
+						<Event name="OnChange">ItemsQuantityOnChange</Event>
+					</Events>
+				</InputField>
+				<InputField name="ItemsAmount" id="35">
+					<DataPath>Object.Items.Amount</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ItemsAmountContextMenu" id="36"/>
+					<ExtendedTooltip name="ItemsAmountExtendedTooltip" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Object" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Payment</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Object.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
