@@ -18,8 +18,8 @@
 		<Metadata name="Catalog.TypesOfProducts" id="de45af80-4ad9-4c7d-aea9-a8881ac1e67f" configVersion="5a62c299e9140040a4399c8af97323f300000000"/>
 		<Metadata name="CommonModule.CommonFunctions" id="37d66cfd-9f37-4dab-ac4f-8f7b300ca832" configVersion="2ab425dbbf0cc74999ff5e63c13437d300000000"/>
 		<Metadata name="CommonModule.CommonFunctions.Module" id="37d66cfd-9f37-4dab-ac4f-8f7b300ca832.0" configVersion="49c403336131fe49b3b24349bc596ce000000000"/>
-		<Metadata name="Configuration.PersonalAccountingApp" id="375c91ac-138b-4f28-ae68-661e42ffff76" configVersion="c4994d6364d1354396f9ec731a30d8be00000000"/>
-		<Metadata name="Document.Payment" id="04ba598b-e04b-4d6c-a23e-cf562d9217ee" configVersion="1e756c95fd99bd459d4bf9688ec8ad7400000000">
+		<Metadata name="Configuration.PersonalAccountingApp" id="375c91ac-138b-4f28-ae68-661e42ffff76" configVersion="0f5dd1feedfcb8489cab64cd151015c700000000"/>
+		<Metadata name="Document.Payment" id="04ba598b-e04b-4d6c-a23e-cf562d9217ee" configVersion="cdbfba9f3c3f554396fc0aedac4bd10500000000">
 			<Metadata name="Document.Payment.Attribute.DocumentSum" id="1877352a-d4d2-4a6d-8946-3098975a45f7"/>
 			<Metadata name="Document.Payment.TabularSection.Items.Attribute.Amount" id="1dc3d39e-85bb-4213-ba46-e5c7a506f508"/>
 			<Metadata name="Document.Payment.TabularSection.Items.Attribute.Cost" id="32e71959-4a0e-4cb8-8958-0229bf369ac0"/>
@@ -27,9 +27,9 @@
 			<Metadata name="Document.Payment.TabularSection.Items" id="89bfa60a-8f6e-4d73-b711-ccd119428192"/>
 			<Metadata name="Document.Payment.TabularSection.Items.Attribute.Product" id="b21e05c4-1069-4bca-a9de-d264b8e7880d"/>
 		</Metadata>
-		<Metadata name="Document.Payment.Form.DocumentForm" id="5e97fcb2-c5a8-49f8-8220-4e15aa56b527" configVersion="58fb917fc6387e4787611800b5cb97da00000000"/>
-		<Metadata name="Document.Payment.Form.DocumentForm.Form" id="5e97fcb2-c5a8-49f8-8220-4e15aa56b527.0" configVersion="590b2d898d17da4f92386baecfb62dd000000000"/>
-		<Metadata name="Document.Payment.ObjectModule" id="04ba598b-e04b-4d6c-a23e-cf562d9217ee.0" configVersion="f9b23d02598a2749ab5f0cece168235c00000000"/>
+		<Metadata name="Document.Payment.Form.DocumentForm" id="5e97fcb2-c5a8-49f8-8220-4e15aa56b527" configVersion="1a32910d509aa044abe1d9cbbe51f7ad00000000"/>
+		<Metadata name="Document.Payment.Form.DocumentForm.Form" id="5e97fcb2-c5a8-49f8-8220-4e15aa56b527.0" configVersion="d54ee5c98da44141b7ac43de3beadc0f00000000"/>
+		<Metadata name="Document.Payment.ObjectModule" id="04ba598b-e04b-4d6c-a23e-cf562d9217ee.0" configVersion="77c2a6b5c402534b89a5f480f6daec6c00000000"/>
 		<Metadata name="Document.SetPeriodicServices" id="e0f474c9-8d82-497a-9276-2742dba936a9" configVersion="5bff7b33ec851b4b869709b3fa27a67c00000000">
 			<Metadata name="Document.SetPeriodicServices.TabularSection.Services.Attribute.Cost" id="21f05fd8-3de8-4e5c-bcff-099b5cff95c3"/>
 			<Metadata name="Document.SetPeriodicServices.Attribute.Period" id="427f996f-faf3-492f-9e36-137eaebd74bb"/>
@@ -53,6 +53,10 @@
 			<Metadata name="InformationRegister.Barcodes.Attribute.Barcode" id="73c0c73c-d295-4041-b94d-d0782b0d9347"/>
 			<Metadata name="InformationRegister.Barcodes.Dimension.Product" id="a2e93471-3213-48fa-87f4-6199dfc3e749"/>
 		</Metadata>
+		<Metadata name="InformationRegister.ProductCosts" id="a3f465d8-da10-4766-b95f-f656c4dc5bcd" configVersion="f6eec4b0cbe45d4c8e684dcf8041ee0c00000000">
+			<Metadata name="InformationRegister.ProductCosts.Resource.Cost" id="375c26bb-7d98-4e43-a5e5-728bf0da81a4"/>
+			<Metadata name="InformationRegister.ProductCosts.Dimension.Product" id="be5b28e4-52da-49ce-8a2b-88e63a2d5165"/>
+		</Metadata>
 		<Metadata name="InformationRegister.ServiceCost" id="3d1bc235-fc06-49e5-9d9f-4f5576f4fe0b" configVersion="e8cf48a574521e4db5b3cc71d268e75500000000">
 			<Metadata name="InformationRegister.ServiceCost.Resource.Cost" id="28c6df7b-e72a-49fe-a0ab-0ed19d864334"/>
 			<Metadata name="InformationRegister.ServiceCost.Dimension.ServicesPeriod" id="90d35da1-9f62-43ac-9139-0a68c647c864"/>
@@ -62,7 +66,7 @@
 		<Metadata name="Language.English" id="b107128a-b98a-4b77-81e0-71288f04976e" configVersion="683f859efd8e1a47baada30d05d0edd400000000"/>
 		<Metadata name="Subsystem.Profits" id="e61ec70d-3440-4bf1-b49d-6edea8943517" configVersion="d1ab1115dd672b47b0ea493562238c5a00000000"/>
 		<Metadata name="Subsystem.Settings" id="2b1f7f4d-089f-4f62-ac9a-e1d1b33c18d1" configVersion="261a4982015e5c4daed995ed91415bd000000000"/>
-		<Metadata name="Subsystem.Spending" id="cf616c9d-6dab-4c42-897a-b97ebad87844" configVersion="0f78138a41bd9c4c81deff732f984e3400000000"/>
+		<Metadata name="Subsystem.Spending" id="cf616c9d-6dab-4c42-897a-b97ebad87844" configVersion="cec53a9ef4cb3e478f81e269fb2479ad00000000"/>
 		<Metadata name="Subsystem.Spending.CommandInterface" id="cf616c9d-6dab-4c42-897a-b97ebad87844.1" configVersion="083868befa0da04580261cc2e0fd965a00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
