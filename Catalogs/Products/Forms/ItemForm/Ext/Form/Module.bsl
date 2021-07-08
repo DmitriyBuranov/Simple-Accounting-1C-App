@@ -54,6 +54,7 @@ Procedure AddBarCode(Barcode, Result, Message, AdditionalParam)
 	EndIf; 
 EndProcedure
 
+&AtServer
 Procedure MakeRecord(Barcode)
 	Record = Informationregisters.Barcodes.CreateRecordManager();
 	Record.Barcode = Barcode;

@@ -26,7 +26,15 @@
 			<DataPath>Object.Items</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ItemsContextMenu" id="11"/>
-			<AutoCommandBar name="ItemsCommandBar" id="12"/>
+			<AutoCommandBar name="ItemsCommandBar" id="12">
+				<ChildItems>
+					<Button name="AddProductByBarcode" id="38">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.AddProductByBarcode</CommandName>
+						<ExtendedTooltip name="AddProductByBarcodeExtendedTooltip" id="39"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
 			<ExtendedTooltip name="ItemsExtendedTooltip" id="13"/>
 			<SearchStringAddition name="ItemsSearchString" id="14">
 				<AdditionSource>
@@ -118,4 +126,21 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="AddProductByBarcode" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add product by barcode</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add product by barcode</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>AddByBarCode</Action>
+		</Command>
+	</Commands>
 </Form>
