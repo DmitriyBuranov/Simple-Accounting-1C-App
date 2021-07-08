@@ -32,3 +32,34 @@ Procedure ShowProp()
 	EndIf;
 EndProcedure
 
+&AtClient
+Procedure ScanBarCode(Command)
+	Write();
+	#If MobileapplicationClient Then
+	If MultimediaTools.BarcodeScanningSupported() Then
+		ScanProcedure = New NotifyDescription("AddBarCode", thisForm);
+		MultimediaTools.ShowBarcodeScanning("Scan", ScanProcedure,,BarCodeType.Linear);
+	Else
+		Message("Not Barcode Scanning Supported!");
+	EndIf;
+	#EndIf
+EndProcedure
+
+&AtClient
+Procedure AddBarCode(Barcode, Result, Message, AdditionalParam)
+	If Result Then
+		MakeRecord(Barcode);		
+ 	Else
+    	Message("Can't scan");  
+	EndIf; 
+EndProcedure
+
+Procedure MakeRecord(Barcode)
+	Record = Informationregisters.Barcodes.CreateRecordManager();
+	Record.Barcode = Barcode;
+	Record.Product = Object.Ref;
+	Record.Write(False);
+EndProcedure
+
+
+

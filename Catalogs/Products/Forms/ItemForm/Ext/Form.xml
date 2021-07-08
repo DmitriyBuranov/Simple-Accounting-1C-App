@@ -42,6 +42,11 @@
 			<ContextMenu name="PeriodicityContextMenu" id="17"/>
 			<ExtendedTooltip name="PeriodicityExtendedTooltip" id="18"/>
 		</InputField>
+		<Button name="AddBarCode" id="19">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.AddBarCode</CommandName>
+			<ExtendedTooltip name="AddBarCodeExtendedTooltip" id="20"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Object" id="1">
@@ -52,4 +57,21 @@
 			<SavedData>true</SavedData>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="AddBarCode" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add bar code</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add bar code</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ScanBarCode</Action>
+		</Command>
+	</Commands>
 </Form>

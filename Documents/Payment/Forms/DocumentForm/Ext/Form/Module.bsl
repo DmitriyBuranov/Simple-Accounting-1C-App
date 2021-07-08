@@ -25,11 +25,10 @@ Function SavedCost(Product)
 	             |	ProductCostsSliceLast.Cost AS Cost
 	             |FROM
 	             |	InformationRegister.ProductCosts.SliceLast(, Product = &product) AS ProductCostsSliceLast";
-	Query.SetParameter("product",Product);
-	
+	Query.SetParameter("product",Product);	
 	Selection = Query.Execute().Select();
 	
 	While Selection.Next() do
-		return Selection.Cost;
+		Return Selection.Cost;
 	EndDo;	
 EndFunction
