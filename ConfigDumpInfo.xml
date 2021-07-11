@@ -18,7 +18,12 @@
 		<Metadata name="Catalog.TypesOfProducts" id="de45af80-4ad9-4c7d-aea9-a8881ac1e67f" configVersion="5a62c299e9140040a4399c8af97323f300000000"/>
 		<Metadata name="CommonModule.CommonFunctions" id="37d66cfd-9f37-4dab-ac4f-8f7b300ca832" configVersion="2ab425dbbf0cc74999ff5e63c13437d300000000"/>
 		<Metadata name="CommonModule.CommonFunctions.Module" id="37d66cfd-9f37-4dab-ac4f-8f7b300ca832.0" configVersion="49c403336131fe49b3b24349bc596ce000000000"/>
-		<Metadata name="Configuration.PersonalAccountingApp" id="375c91ac-138b-4f28-ae68-661e42ffff76" configVersion="0f5dd1feedfcb8489cab64cd151015c700000000"/>
+		<Metadata name="Configuration.PersonalAccountingApp" id="375c91ac-138b-4f28-ae68-661e42ffff76" configVersion="289bfb5c6b0f9444897f58bd5eb5e3d100000000"/>
+		<Metadata name="Configuration.PersonalAccountingApp.CommandInterface" id="5059b954-63d5-469f-8ee2-5c6f492b0085.a" configVersion="d7d42b483bfce448b051e29b08a4a9bb00000000"/>
+		<Metadata name="Configuration.PersonalAccountingApp.HomePageWorkArea" id="5059b954-63d5-469f-8ee2-5c6f492b0085.8" configVersion="0aca58580d1928458e53b84fd6d4abd100000000"/>
+		<Metadata name="DataProcessor.StartWorkPlace" id="2467d9da-c3c7-4cfd-b5b3-6897bdc0ee55" configVersion="e2816df0f6364640a79390bde4fedeb800000000"/>
+		<Metadata name="DataProcessor.StartWorkPlace.Form.Form" id="cd05dd80-e9f5-4657-b8be-a2303ee2a9cd" configVersion="14a7261e255b1e44b2a67ef28f0f815f00000000"/>
+		<Metadata name="DataProcessor.StartWorkPlace.Form.Form.Form" id="cd05dd80-e9f5-4657-b8be-a2303ee2a9cd.0" configVersion="065883d5744acf4eabbf814eb2f2979100000000"/>
 		<Metadata name="Document.Payment" id="04ba598b-e04b-4d6c-a23e-cf562d9217ee" configVersion="cdbfba9f3c3f554396fc0aedac4bd10500000000">
 			<Metadata name="Document.Payment.Attribute.DocumentSum" id="1877352a-d4d2-4a6d-8946-3098975a45f7"/>
 			<Metadata name="Document.Payment.TabularSection.Items.Attribute.Amount" id="1dc3d39e-85bb-4213-ba46-e5c7a506f508"/>
@@ -64,9 +69,8 @@
 			<Metadata name="InformationRegister.ServiceCost.Dimension.Service" id="fe9f23ec-a9ff-4a94-919c-0164598fb5f3"/>
 		</Metadata>
 		<Metadata name="Language.English" id="b107128a-b98a-4b77-81e0-71288f04976e" configVersion="683f859efd8e1a47baada30d05d0edd400000000"/>
-		<Metadata name="Subsystem.Profits" id="e61ec70d-3440-4bf1-b49d-6edea8943517" configVersion="d1ab1115dd672b47b0ea493562238c5a00000000"/>
-		<Metadata name="Subsystem.Settings" id="2b1f7f4d-089f-4f62-ac9a-e1d1b33c18d1" configVersion="261a4982015e5c4daed995ed91415bd000000000"/>
-		<Metadata name="Subsystem.Spending" id="cf616c9d-6dab-4c42-897a-b97ebad87844" configVersion="cec53a9ef4cb3e478f81e269fb2479ad00000000"/>
+		<Metadata name="Subsystem.Catalogs" id="2b1f7f4d-089f-4f62-ac9a-e1d1b33c18d1" configVersion="c09bfad762ea204b8b1590df4ac5b2b300000000"/>
+		<Metadata name="Subsystem.Spending" id="cf616c9d-6dab-4c42-897a-b97ebad87844" configVersion="db4260fa8d5f1040a95f52da9ea95b2a00000000"/>
 		<Metadata name="Subsystem.Spending.CommandInterface" id="cf616c9d-6dab-4c42-897a-b97ebad87844.1" configVersion="083868befa0da04580261cc2e0fd965a00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

@@ -207,8 +207,7 @@
 		<ChildObjects>
 			<Language>English</Language>
 			<Subsystem>Spending</Subsystem>
-			<Subsystem>Profits</Subsystem>
-			<Subsystem>Settings</Subsystem>
+			<Subsystem>Catalogs</Subsystem>
 			<CommonModule>CommonFunctions</CommonModule>
 			<Catalog>Products</Catalog>
 			<Catalog>TypesOfProducts</Catalog>
@@ -216,6 +215,7 @@
 			<Document>SetPeriodicServices</Document>
 			<Enum>ProductKinds</Enum>
 			<Enum>Periods</Enum>
+			<DataProcessor>StartWorkPlace</DataProcessor>
 			<InformationRegister>Barcodes</InformationRegister>
 			<InformationRegister>ServiceCost</InformationRegister>
 			<InformationRegister>ProductCosts</InformationRegister>
