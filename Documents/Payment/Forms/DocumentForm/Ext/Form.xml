@@ -67,10 +67,11 @@
 				<LabelField name="ItemsLineNumber" id="23">
 					<DataPath>Object.Items.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<Width>2</Width>
 					<ContextMenu name="ItemsLineNumberContextMenu" id="24"/>
 					<ExtendedTooltip name="ItemsLineNumberExtendedTooltip" id="25"/>
 				</LabelField>
-				<InputField name="ItemsItem" id="26">
+				<InputField name="ItemsItem" id="26" DisplayImportance="VeryHigh">
 					<DataPath>Object.Items.Product</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ItemsItemContextMenu" id="27"/>
@@ -79,9 +80,10 @@
 						<Event name="OnChange">ItemsItemOnChange</Event>
 					</Events>
 				</InputField>
-				<InputField name="ItemsCost" id="29">
+				<InputField name="ItemsCost" id="29" DisplayImportance="VeryHigh">
 					<DataPath>Object.Items.Cost</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<Width>4</Width>
 					<ContextMenu name="ItemsCostContextMenu" id="30"/>
 					<ExtendedTooltip name="ItemsCostExtendedTooltip" id="31"/>
 					<Events>
@@ -91,6 +93,7 @@
 				<InputField name="ItemsQuantity" id="32">
 					<DataPath>Object.Items.Quantity</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<Width>5</Width>
 					<ContextMenu name="ItemsQuantityContextMenu" id="33"/>
 					<ExtendedTooltip name="ItemsQuantityExtendedTooltip" id="34"/>
 					<Events>
@@ -101,6 +104,7 @@
 					<DataPath>Object.Items.Amount</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
+					<Width>5</Width>
 					<ContextMenu name="ItemsAmountContextMenu" id="36"/>
 					<ExtendedTooltip name="ItemsAmountExtendedTooltip" id="37"/>
 				</InputField>
@@ -109,6 +113,12 @@
 		<InputField name="DocumentSum" id="7">
 			<DataPath>Object.DocumentSum</DataPath>
 			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Document amount</v8:content>
+				</v8:item>
+			</Title>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="DocumentSumContextMenu" id="8"/>
 			<ExtendedTooltip name="DocumentSumExtendedTooltip" id="9"/>

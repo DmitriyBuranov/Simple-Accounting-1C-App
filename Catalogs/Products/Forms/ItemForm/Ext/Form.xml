@@ -16,12 +16,14 @@
 					<v8:content>Name</v8:content>
 				</v8:item>
 			</Title>
+			<TitleTextColor>style:BorderColor</TitleTextColor>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="DescriptionContextMenu" id="5"/>
 			<ExtendedTooltip name="DescriptionExtendedTooltip" id="6"/>
 		</InputField>
 		<InputField name="Kind" id="7">
 			<DataPath>Object.Kind</DataPath>
+			<TitleTextColor>style:BorderColor</TitleTextColor>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="KindContextMenu" id="8"/>
 			<ExtendedTooltip name="KindExtendedTooltip" id="9"/>

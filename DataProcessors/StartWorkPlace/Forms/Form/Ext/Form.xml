@@ -6,18 +6,13 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="AddGroup" id="5">
-			<Title>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Add group</v8:content>
-				</v8:item>
-			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>en</v8:lang>
 					<v8:content>Add group</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Group>Vertical</Group>
 			<ExtendedTooltip name="AddGroupExtendedTooltip" id="6"/>
 			<ChildItems>
 				<Button name="AddProduct" id="1">
@@ -43,6 +38,37 @@
 			<CommandName>Form.Command.SetPeriodicServices</CommandName>
 			<ExtendedTooltip name="SetPeriodicServicesExtendedTooltip" id="8"/>
 		</Button>
+		<UsualGroup name="Info" id="12">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Info</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Height>3</Height>
+			<ExtendedTooltip name="InfoExtendedTooltip" id="13"/>
+			<ChildItems>
+				<InputField name="TotalSpentMonth" id="9">
+					<DataPath>TotalSpentMonth</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>This month spents</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:LargeTextFont" kind="StyleItem"/>
+					<Height>2</Height>
+					<TextColor>web:Red</TextColor>
+					<ContextMenu name="TotalSpentMonthContextMenu" id="10"/>
+					<ExtendedTooltip name="TotalSpentMonthExtendedTooltip" id="11"/>
+				</InputField>
+				<Button name="Recalculate" id="14">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Recalculate</CommandName>
+					<ExtendedTooltip name="RecalculateExtendedTooltip" id="15"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Object" id="1">
@@ -113,6 +139,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>SetPeriodicServices</Action>
+		</Command>
+		<Command name="Recalculate" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Recalculate</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Recalculate</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Recalculate</Action>
 		</Command>
 	</Commands>
 </Form>

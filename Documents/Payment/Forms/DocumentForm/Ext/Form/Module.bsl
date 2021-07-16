@@ -36,20 +36,26 @@ EndFunction
 &AtClient
 Procedure AddByBarCode(Command)
 	Write();
-	#If MobileapplicationClient Then
+	//  #If MobileApplicationClient Then -- doesn't work
+	#If МобильноеПриложениеКлиент  Then
 	If MultimediaTools.BarcodeScanningSupported() Then
 		ScanProcedure = New NotifyDescription("ScanBarCode", thisForm);
 		MultimediaTools.ShowBarcodeScanning("Scan", ScanProcedure,,BarCodeType.Linear);
 	Else
 		Message("Not Barcode Scanning Supported!");
 	EndIf;
+	#Else
+	  	Message("Wrong context");
 	#EndIf
 EndProcedure
 
 &AtClient
-Procedure ScandBarCode(Barcode, Result, Message, AdditionalParam)
+Procedure ScanBarCode(Barcode, Result, Message, AdditionalParam)Export
 	If Result Then
-		FindProductByBarCode(Barcode);
+		#If МобильноеПриложениеКлиент  Then
+		MultimediaTools.CloseBarcodeScanning();
+		#EndIf
+		FindProductByBarCode(Barcode);		
  	Else
     	Message("Can't scan");  
 	EndIf; 
@@ -78,3 +84,13 @@ Procedure  FindProductByBarCode(Barcode)
 		Message("Can't find product by this Barcode");
 	EndIf;
 EndProcedure 
+
+&AtServer
+Procedure ItemsOnChangeAtServer()
+	object.DocumentSum = object.Items.Total("Amount");
+EndProcedure
+
+&AtClient
+Procedure ItemsOnChange(Item)
+	ItemsOnChangeAtServer();
+EndProcedure

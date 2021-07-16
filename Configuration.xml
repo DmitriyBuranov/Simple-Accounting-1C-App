@@ -158,7 +158,7 @@
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>PictureAndVideoLibraries</app:functionality>
-					<app:use>false</app:use>
+					<app:use>true</app:use>
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>AudioPlaybackAndVibration</app:functionality>
@@ -215,6 +215,7 @@
 			<Document>SetPeriodicServices</Document>
 			<Enum>ProductKinds</Enum>
 			<Enum>Periods</Enum>
+			<Report>SpentsAnalyze</Report>
 			<DataProcessor>StartWorkPlace</DataProcessor>
 			<InformationRegister>Barcodes</InformationRegister>
 			<InformationRegister>ServiceCost</InformationRegister>

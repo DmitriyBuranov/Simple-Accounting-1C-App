@@ -35,20 +35,27 @@ EndProcedure
 &AtClient
 Procedure ScanBarCode(Command)
 	Write();
-	#If MobileapplicationClient Then
+	//  #If MobileApplicationClient Then -- doesn't work
+	#If МобильноеПриложениеКлиент Then  
 	If MultimediaTools.BarcodeScanningSupported() Then
 		ScanProcedure = New NotifyDescription("AddBarCode", thisForm);
 		MultimediaTools.ShowBarcodeScanning("Scan", ScanProcedure,,BarCodeType.Linear);
 	Else
 		Message("Not Barcode Scanning Supported!");
 	EndIf;
+	#Else
+	  	Message("Wrong context");
 	#EndIf
 EndProcedure
 
 &AtClient
-Procedure AddBarCode(Barcode, Result, Message, AdditionalParam)
+Procedure AddBarCode(Barcode, Result, Message, AdditionalParam) Export
 	If Result Then
-		MakeRecord(Barcode);		
+		#If МобильноеПриложениеКлиент  Then
+		MultimediaTools.CloseBarcodeScanning();
+		#EndIf
+		MakeRecord(Barcode);
+		Message(Barcode + " added"); 
  	Else
     	Message("Can't scan");  
 	EndIf; 

@@ -27,6 +27,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.SetPeriodicServices</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ServiceCost</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ProductCosts</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.SpentsAnalyze</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
