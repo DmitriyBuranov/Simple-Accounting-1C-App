@@ -6,3 +6,4 @@ This is one of the simpliest way to understand main idea of 1C platform and type
 To build this application, you need a special  special [1C configuration - mobile application builder](https://1c-dn.com/library/tutorials/mobile_application_installing_and_setting_up_mobile_application_builder/).
 You can download builded android app from my [GoogleDrive](https://drive.google.com/file/d/1fvXWjXIfEXLuwzDX95dN1gmKZIVtT5uc/view?usp=sharing).
 
+In the application you can calculate your expenses. For better useability implemented barcode accounting  and remembering the last price of products.
