@@ -7,3 +7,5 @@ To build this application, you need a special  special [1C configuration - mobil
 You can download builded android app from my [GoogleDrive](https://drive.google.com/file/d/1fvXWjXIfEXLuwzDX95dN1gmKZIVtT5uc/view?usp=sharing).
 
 In the application you can calculate your expenses. For better useability implemented barcode accounting  and remembering the last price of products.
+
+[Wiki page](https://github.com/DmitriyBuranov/Simple-Accounting-1C-App/wiki/Personal-accounting-app) with small manual and screenshots.
