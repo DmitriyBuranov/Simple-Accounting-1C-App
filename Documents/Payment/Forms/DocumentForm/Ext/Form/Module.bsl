@@ -80,6 +80,7 @@ Procedure  FindProductByBarCode(Barcode)
 	If ValueIsFilled(Product) then
 		NewString = object.Items.Add();
 		NewString.Product = Product;
+		NewString.Cost = SavedCost(Product);
 	Else
 		Message("Can't find product by this Barcode");
 	EndIf;

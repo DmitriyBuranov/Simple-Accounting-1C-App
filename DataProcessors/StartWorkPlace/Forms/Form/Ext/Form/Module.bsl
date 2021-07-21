@@ -51,3 +51,9 @@ Procedure RecalculateOnServer()
 	TotalSpentMonth = CalculateSpents();
 EndProcedure
 
+
+&AtClient
+Procedure OpenReport(Command)
+	OpenForm("Report.SpentsAnalyze.Form");
+EndProcedure
+

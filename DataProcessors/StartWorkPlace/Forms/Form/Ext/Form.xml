@@ -69,6 +69,11 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<Button name="OpenReport" id="16">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.OpenReport</CommandName>
+			<ExtendedTooltip name="OpenReportExtendedTooltip" id="17"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Object" id="1">
@@ -154,6 +159,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Recalculate</Action>
+		</Command>
+		<Command name="OpenReport" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open report</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open report</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>OpenReport</Action>
 		</Command>
 	</Commands>
 </Form>

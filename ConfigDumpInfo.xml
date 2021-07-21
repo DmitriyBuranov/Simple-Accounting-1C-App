@@ -24,8 +24,8 @@
 		<Metadata name="Configuration.PersonalAccountingApp.CommandInterface" id="5059b954-63d5-469f-8ee2-5c6f492b0085.a" configVersion="d7d42b483bfce448b051e29b08a4a9bb00000000"/>
 		<Metadata name="Configuration.PersonalAccountingApp.HomePageWorkArea" id="5059b954-63d5-469f-8ee2-5c6f492b0085.8" configVersion="0aca58580d1928458e53b84fd6d4abd100000000"/>
 		<Metadata name="DataProcessor.StartWorkPlace" id="2467d9da-c3c7-4cfd-b5b3-6897bdc0ee55" configVersion="61585eb96cf81f44ba54ff966150ec8200000000"/>
-		<Metadata name="DataProcessor.StartWorkPlace.Form.Form" id="cd05dd80-e9f5-4657-b8be-a2303ee2a9cd" configVersion="e6f149b6d13275469b245d86e766f98700000000"/>
-		<Metadata name="DataProcessor.StartWorkPlace.Form.Form.Form" id="cd05dd80-e9f5-4657-b8be-a2303ee2a9cd.0" configVersion="3785bf5c448fb54c8bf2ab0078b9c48200000000"/>
+		<Metadata name="DataProcessor.StartWorkPlace.Form.Form" id="cd05dd80-e9f5-4657-b8be-a2303ee2a9cd" configVersion="11c2d890c5ef0a4ea52daec25e36a9f600000000"/>
+		<Metadata name="DataProcessor.StartWorkPlace.Form.Form.Form" id="cd05dd80-e9f5-4657-b8be-a2303ee2a9cd.0" configVersion="88536dc0a0a5c14eb442997f5ad99aaf00000000"/>
 		<Metadata name="Document.Payment" id="04ba598b-e04b-4d6c-a23e-cf562d9217ee" configVersion="cdbfba9f3c3f554396fc0aedac4bd10500000000">
 			<Metadata name="Document.Payment.Attribute.DocumentSum" id="1877352a-d4d2-4a6d-8946-3098975a45f7"/>
 			<Metadata name="Document.Payment.TabularSection.Items.Attribute.Amount" id="1dc3d39e-85bb-4213-ba46-e5c7a506f508"/>
@@ -34,8 +34,8 @@
 			<Metadata name="Document.Payment.TabularSection.Items" id="89bfa60a-8f6e-4d73-b711-ccd119428192"/>
 			<Metadata name="Document.Payment.TabularSection.Items.Attribute.Product" id="b21e05c4-1069-4bca-a9de-d264b8e7880d"/>
 		</Metadata>
-		<Metadata name="Document.Payment.Form.DocumentForm" id="5e97fcb2-c5a8-49f8-8220-4e15aa56b527" configVersion="48c5cb217945dd46802a16666226079200000000"/>
-		<Metadata name="Document.Payment.Form.DocumentForm.Form" id="5e97fcb2-c5a8-49f8-8220-4e15aa56b527.0" configVersion="843abe947cf78f48bd0b12c3005a58ee00000000"/>
+		<Metadata name="Document.Payment.Form.DocumentForm" id="5e97fcb2-c5a8-49f8-8220-4e15aa56b527" configVersion="831d93dbc81dfc488b46ba01d8a95e6600000000"/>
+		<Metadata name="Document.Payment.Form.DocumentForm.Form" id="5e97fcb2-c5a8-49f8-8220-4e15aa56b527.0" configVersion="ea36d7d9a5d3a54883a6f1b17d80572b00000000"/>
 		<Metadata name="Document.Payment.ObjectModule" id="04ba598b-e04b-4d6c-a23e-cf562d9217ee.0" configVersion="77c2a6b5c402534b89a5f480f6daec6c00000000"/>
 		<Metadata name="Document.SetPeriodicServices" id="e0f474c9-8d82-497a-9276-2742dba936a9" configVersion="5bff7b33ec851b4b869709b3fa27a67c00000000">
 			<Metadata name="Document.SetPeriodicServices.TabularSection.Services.Attribute.Cost" id="21f05fd8-3de8-4e5c-bcff-099b5cff95c3"/>
